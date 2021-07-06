@@ -1,0 +1,42 @@
+*{
+    outline: none;
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    font-family: 'Nunito', sans-serif;
+}
+
+/* news title */
+.landing-page{
+    background-image: url("../images/7.jpg");
+    height: 25%; /*image height*/
+    background-position: center;/*if I didn't put it, it will show the top of the img the boy will Disappears*/
+    background-attachment: fixed;/*when we do the scroll it be fixed and show the rest of the img*/
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.landing-content{
+    padding: 5rem;
+}
+.news-info{
+    display: flex;
+    padding-bottom: 2rem;
+}
+.js-button{
+    background-color: #ff8700;
+    font-weight: bold;
+    border-radius: 5%;
+    border: none;
+    padding: .3rem;
+    color: white;
+}
+.date{
+    color: white;
+    padding-left: 1rem;
+}
+.news-title{
+    color:white;
+    font-weight: bolder;
+    font-size: 34px;
+}
+

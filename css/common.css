@@ -1,0 +1,73 @@
+*{
+    outline: none;
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    font-family: 'Nunito', sans-serif;
+}
+/*  Header section style in two pages  */
+.header-nav{
+    padding: 0rem 4rem;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border-bottom: 1px solid #ECEEF2;
+}
+.logo{
+    color:#212631; 
+    font-weight: bolder;
+    font-size: 2.2rem;
+    animation: logo 5s linear 0s infinite normal none;
+}
+ /* for animation */
+@keyframes logo {
+    0% {color: white;}
+    25% {color: #577d9b;}
+    50% {color: #23689b;}
+    75% {color: #577d9b;}
+    100% {color: #212631;}
+    }
+  
+  
+.nav-list{
+    width:46%;
+    display: flex;
+    justify-content: space-evenly;
+    list-style: none;
+}
+.nav-list a{
+    text-decoration: none;
+    color:#212631;
+}
+.nav-list li{
+    font-size:1rem ;
+    padding: 1.2rem 1.15rem;
+    border-left: 1px solid #ECEEF2;
+    font-weight: bold;
+
+}
+
+
+.nav-list :nth-child(3){
+    border-bottom: 3px solid #4bb92f;
+}
+.nav-list :nth-child(4){
+    border-bottom: 3px solid #ff8700;
+}
+.nav-list :nth-child(5){
+    border-bottom: 3px solid #0078ff;
+}
+.nav-list :nth-child(6){
+    border-bottom: 3px solid #8d00ff;
+    border-right: 1px solid #ECEEF2;
+
+}
+.icons{
+    width:30%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.icons i{
+    padding: 1.3rem;
+}

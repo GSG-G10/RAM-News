@@ -17,7 +17,7 @@
     <!--  Navigation section  -->
     <nav class='header-nav'>
         <h1 class="logo">RAM News </h1>
-        <ul class='nav-list'>
+        <ul class='nav-list' id="nav-list">
            <li>  <a href="./html/details.html"> News </a></li>
            <li>  <a href="./html/details.html"> Popular </a></li>
            <li>  <a href="./html/details.html"> Web design</a></li>
@@ -25,11 +25,17 @@
            <li>  <a href="./html/details.html"> Css </a></li>
            <li>  <a href="./html/details.html"> Jquery </a></li>
         </ul>
-        <div class='icons'>
-            <i class="fas fa-bars"></i>
-            <i class="fas fa-search"></i>
-        </div>
+    <div class='icons'>
+        <i class="fas fa-bars"id='showHideBtn'onclick="show()"> </i> 
+        <i class="fas fa-search"></i>
+    </div>
     </nav>
+
+<script>
     
+    function show(){
+        let nav=document.getElementById('nav-list').classList.toggle('active')
+    }
+</script>
 </body>
 </html>

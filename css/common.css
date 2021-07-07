@@ -43,7 +43,7 @@ html{
 }
 .nav-list li{
     font-size:1rem ;
-    padding: 1rem 1.15rem;
+    padding: 1rem 0.7rem;
     border: 1px solid #ECEEF2;
     border-right:none ;
     font-weight: bold;

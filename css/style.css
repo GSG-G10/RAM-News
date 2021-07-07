@@ -1,5 +1,5 @@
 
-/*********** Baner Section*************/
+/*********************** Baner Section*********************/
 .baner-section{
     padding: 1rem 5rem;
     display: flex;
@@ -62,14 +62,14 @@
    justify-content: space-evenly;
  
 }
-.recent-item {
+.main-img-style {
     width:30%;
     padding-bottom: 2rem;
 }
 figure img {
     width:100%;
 }
-.recent-item button{
+.main-img-style button{
     width:90px;
     border: none;
     padding:5px;
@@ -91,22 +91,49 @@ figure img {
 .green{
     background-color: #5DC044;
 }
-.recent-item p{
+.main-img-style p{
    font-weight: bold;
    font-size: 1.2rem;
    padding: 4px;
 }
-
-   
-
-
+/* **************************News  section style *********** */
+.news-section{
+    padding: 10px 12px;
+}
+.news-main{
+    width:70%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    margin: 5px;
+ }
+ .news-main .item{
+    display: flex;
+    justify-content:flex-start;
+ }
+ .news-main .item label{
+     margin-left: 7px;
+ }
+.news-main .main-img-style {
+    width:47%;
+    padding-bottom: 2rem;
+}
+.news-main .main-img-style.first-news{
+    width:100%;
+    margin:15px
+}
+.news-main  figure img {
+    height:60vh;
+    object-fit: cover;
+}
 /* ***************Media query**************** */
 @media  (min-width: 320px) and (max-width: 768px)  {
 
     html{
         font-size: 18px;
     }
-/*  Baner section  */
+/*===========Baner section section==========  */
+
 .baner-section{
     flex-direction: column;
     padding: 1rem 2rem;
@@ -121,21 +148,39 @@ figure img {
 .baner-item p{
     font-size: 0.7rem;
 }
-/*========================  New post section==========================  */
-.recent-item {
-    width:50%;
+/*===========  New post section============  */
+.main-img-style{
+    width:100%;
     padding: 1rem;
 }  
-.recent-item  p{
+.new-post-section  .main-img-style  p{
     font-size: 12px;
     }
- .recent-item label {
+    .new-post-section .main-img-style label {
     font-size: 10px;
  }
  .new-post-section .title{
     padding:  1rem;
 
 }
+/* =================News Section ================ */
+.news-main{
+    flex-direction: column;
+    margin: 5px;
+    width:100%;
+ }
+ .news-main p{
+    font-size: 12px;
+    }
+
+.news-main .main-img-style {
+    width:100%;
+  
 }
-
-
+.news-main .main-img-style.first-news{
+    margin: 0;
+}
+.news-main  figure img {
+    height:50vh;
+}
+} /* Media close  */

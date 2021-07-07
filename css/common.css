@@ -76,43 +76,41 @@ html{
 }
 
 /* Media query to make header responsive */
-@media  (max-width: 768px)  {
-html{
-    font-size: 18px;
-}
-.header-nav{
-  height: 15vh;
-}
-.logo{
-    width:70%;
-}
-.nav-list{
-    display: none;
-    visibility: hidden;
-    flex-direction: column;
-    position: relative;
-    top: 250px;
-    width:40%;
-    right: -500px;
-} 
-.nav-list.active{
-    right:0;
-    display: flex;
-    visibility: visible;
-}
-.icons{
-  width:20%;
-}
-.icons i{
-  padding: 1rem;
-}
-.nav-list:active li{
-    border-right: 1px solid #ECEEF2;
 
-    }
-
-}
 @media  (min-width: 320px) and (max-width: 768px)  {
+    html{
+        font-size: 18px;
+    }
+    .header-nav{
+      height: 15vh;
+    }
+    .logo{
+        width:70%;
+    }
+    .nav-list{
+        display: none;
+        visibility: hidden;
+        flex-direction: column;
+        position: relative;
+        top: 250px;
+        width:40%;
+        right: -500px;
+    } 
+    .nav-list.active{
+        right:0;
+        display: flex;
+        visibility: visible;
+    }
+    .icons{
+      width:20%;
+    }
+    .icons i{
+      padding: 1rem;
+    }
+    .nav-list:active li{
+        border-right: 1px solid #ECEEF2;
+    
+        }
     .logo{
        font-size: 1.2rem;
     } 

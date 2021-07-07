@@ -5,6 +5,10 @@
     padding: 0;
     font-family: 'Nunito', sans-serif;
 }
+a{
+    text-decoration: none;
+    color: #212631
+}
 html{
     font-size: 16px;
 }
@@ -43,7 +47,7 @@ html{
 }
 .nav-list li{
     font-size:1rem ;
-    padding: 1rem 1.15rem;
+    padding: 1rem 0.7rem;
     border: 1px solid #ECEEF2;
     border-right:none ;
     font-weight: bold;
@@ -75,58 +79,67 @@ html{
     padding: 50%;
 }
 
-/* Media query to make header responsive */
-@media  (max-width: 768px)  {
-html{
-    font-size: 18px;
-}
-.header-nav{
-  height: 15vh;
-}
-.logo{
-    width:70%;
-}
-.nav-list{
-    display: none;
-    visibility: hidden;
-    flex-direction: column;
-    position: relative;
-    top: 250px;
-    width:40%;
-    right: -500px;
-} 
-.nav-list.active{
-    right:0;
-    display: flex;
-    visibility: visible;
-}
-.icons{
-  width:20%;
-}
-.icons i{
-  padding: 1rem;
-}
-.nav-list:active li{
-    border-right: 1px solid #ECEEF2;
+/* *************=========================Media query ===============================*************/
+/* *************Media query to make header responsive *************/
+
+@media  (min-width: 320px) and (max-width: 768px)  {
+    html{
+        font-size: 18px;
+    }
+    .header-nav{
+      height: 15vh;
+    }
+    .logo{
+        width:70%;
+       font-size: 1.2rem;
 
     }
-
-}
-@media  (min-width: 320px) and (max-width: 768px)  {
-    .logo{
-       font-size: 1.2rem;
+    .nav-list{
+        display: none;
+        visibility: hidden;
+        flex-direction: column;
+        position: relative;
+        top: 250px;
+        width:40%;
+        right: -500px;
     } 
+    .nav-list.active{
+        right:-50px;
+        display: flex;
+        visibility: visible;
+        font-size: 1.1rem;
+        background-color:rgba(0, 0, 0, 0.8);
+        width:35%;
+    }
+    .icons i{
+      padding: 1rem;
+    }
+   .nav-list.active li{
+        border-right: 1px solid #ECEEF2;
+        color: #fff;
+        padding: 1rem ;
+        }
+   .nav-list.active li  a{
+       color: white;
+   }
+
+    
     .icons{
         width:5%;
         padding:5px;
       }
-    .nav-list:active
-     {
-        width:25%;
-     }
-     .nav-list:active li{
-     border-right: 1px solid #ECEEF2;
 
-     }
 
+
+}
+
+@media  (max-width: 360px){
+    .nav-list.active{
+        width:70%;
+    }  
+    .baner-item p{
+    font-size: 10px;
     }
+} 
+
+

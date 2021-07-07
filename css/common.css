@@ -138,8 +138,4 @@ html{
     }
 } 
 
-@media  (max-width: 360px){
-    .nav-list.active{
-        width:70%;
-    }  
-}
+

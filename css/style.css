@@ -1,4 +1,52 @@
-/* New post section style  */
+
+/*********** Baner Section*************/
+.baner-section{
+    padding: 1rem 5rem;
+    display: flex;
+    justify-content: space-evenly;
+}
+.baner-item{
+    width:50%;
+    margin: 10px;
+    background-image: url(../images/2.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 55vh;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: flex-end;
+    padding: 2rem;
+    color: #fff;
+    font-weight: bold;
+}
+.second-baner{
+    background-image: url(../images/5.jpg); 
+}
+.baner-item p{
+    font-weight: bolder;
+    font-size: 1.4rem;
+}
+.item{
+    display: flex;
+    justify-content:space-between;
+}
+.baner-item button{
+   width:90px;
+   height: 25px;
+   color: #fff;
+   border: none;
+   background-color: #976EF8;
+   font-weight: bold;
+   border-radius: 3px;
+   text-transform: uppercase;
+   margin-right: 10px;
+}
+.baner-item:first-child button{
+    background-color: #F7872B;
+}
+/* **************************New post section style *********** */
 .new-post-section{
     padding: 10px 12px;
 }
@@ -48,113 +96,16 @@ figure img {
    font-size: 1.2rem;
    padding: 4px;
 }
-/* ****************************************** */
-@media  (min-width: 320px) and (max-width: 768px)  {
-    html{
-        font-size: 18px;
-    }
-    .header-nav{
-      height: 15vh;
-    }
-    .logo{
-        width:70%;
-       font-size: 1.2rem;
 
-    }
-    .nav-list{
-        display: none;
-        visibility: hidden;
-        flex-direction: column;
-        position: relative;
-        top: 250px;
-        width:40%;
-        right: -500px;
-    } 
-    .nav-list.active{
-        right:-50px;
-        display: flex;
-        visibility: visible;
-        font-size: 1.1rem;
-        background-color:rgba(0, 0, 0, 0.8);
-        width:35%;
-    }
-    .icons i{
-      padding: 1rem;
-    }
-   .nav-list.active li{
-        border-right: 1px solid #ECEEF2;
-        color: #fff;
-        padding: 1rem ;
-        }
-   .nav-list.active li  a{
-       color: white;
-   }
+   
 
-    .icons{
-        width:5%;
-        padding:5px;
-      }
-    .nav-list:active
-     {
-        width:25%;
-     }
-     .nav-list:active li{
-     border-right: 1px solid #ECEEF2;
-
-     }
-
-/*========================  Baner section==========================  */
-/*********** Baner Section*************/
-.baner-section{
-    padding: 1rem 5rem;
-    display: flex;
-    justify-content: space-evenly;
-}
-.baner-item{
-    width:50%;
-    margin: 10px;
-    background-image: url(../images/2.jpg);
-    background-position: center;
-    background-repeat: no-repeat;
-    background-size: cover;
-    height: 55vh;
-    display: flex;
-    flex-direction: column;
-    align-items: flex-start;
-    justify-content: flex-end;
-    padding: 2rem;
-    color: #fff;
-    font-weight: bold;
-}
-.second-baner{
-    background-image: url(../images/5.jpg); 
-}
-.baner-item p{
-    font-weight: bolder;
-    font-size: 1.4rem;
-}
-.item{
-    display: flex;
-    justify-content:space-between;
-}
-.baner-item button{
-   width:90px;
-   height: 25px;
-   color: #fff;
-   border: none;
-   background-color: #976EF8;
-   font-weight: bold;
-   border-radius: 3px;
-   text-transform: uppercase;
-   margin-right: 10px;
-}
-.baner-item:first-child button{
-    background-color: #F7872B;
-}
 
 /* ***************Media query**************** */
 @media  (min-width: 320px) and (max-width: 768px)  {
 
+    html{
+        font-size: 18px;
+    }
 /*  Baner section  */
 .baner-section{
     flex-direction: column;
@@ -187,4 +138,4 @@ figure img {
 }
 }
 
-}
+

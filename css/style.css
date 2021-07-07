@@ -3,10 +3,7 @@
     justify-content: space-around;
     padding: 3em;
     width: 100%;
-    position: absolute;
-    bottom: 0;
     border-top: 1px solid #F4f4f9; 
-    overflow: hidden;
 
 }
 .informations{

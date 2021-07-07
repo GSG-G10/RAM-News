@@ -1,0 +1,376 @@
+*{
+    outline: none;
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    font-family: 'Nunito', sans-serif;
+}
+
+/* news title */
+.landing-page{
+    background-image: url("../images/6.jpg");
+    height: 25%; 
+    background-position: center;
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.landing-content{
+    padding: 5rem;
+}
+.news-info{
+    display: flex;
+    padding-bottom: 2rem;
+}
+.js-button{
+    background-color: #ff8700;
+    font-weight: bold;
+    border-radius: 5%;
+    border: none;
+    padding: .3rem;
+    color: white;
+}
+.date{
+    color: white;
+    padding-left: 1rem;
+}
+.news-title{
+    color:white;
+    font-weight: bolder;
+    font-size: 34px;
+}
+
+/* news feed */
+.news-container{
+    display: flex;
+    flex-wrap: wrap;
+    padding: 2rem 5rem;
+}
+
+.social-media{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+    position: sticky;
+    top:0px;
+    width:5%;
+}
+i{
+    padding: 1rem;
+    color: gray ;
+}
+
+.news-feed{
+    width: 60%;
+    padding: .5rem;
+}
+.news-img{
+    width: 95%;
+    height: 80%;
+}
+.caption{
+    font-weight: bolder;
+    color: #3d455c;
+}
+.quote{
+    font-weight: bold;
+    padding: 1em;
+}
+.note{
+    font-weight: bolder;
+    color: #3d455c;
+}
+
+/* related news */
+.relatedNews-container{
+    width:35%;
+    padding: .5rem;
+}
+.related-news{
+    display: flex;
+    flex-direction: row-reverse;
+    flex-wrap: wrap;
+    padding-top: 2rem;
+}
+.related-title{
+    width: 70%;
+}
+.related-img{
+    width: 30%;
+    height: 60%;
+    padding-right: .5rem;
+}
+
+/* Featured posts */
+.featured-h{
+    padding-top: 2rem;
+    padding-bottom: 2rem;
+}
+.featued-img{
+    width: 30%;
+    height: 40%;
+    position: absolute;
+    z-index: -1;
+    top:50;
+    
+}
+.feartured-content{
+    padding-top: 5rem;
+    padding-left: 2rem;
+}
+.qu-button{
+    background-color: #8d00ff;
+    font-weight: bold;
+    border-radius: 5%;
+    border: none;
+    padding: .3rem;
+    color: white;
+}
+.featured-title{
+    color:white;
+    font-size: 22px;
+}
+
+/*catagories*/
+.catagories-list{
+    display: flex;
+    justify-content: space-between;
+    padding-top: .5rem;
+    padding-bottom: .5rem;
+}
+.web-button{
+    background-color: #4bb92f;
+    font-weight: bold;
+    border-radius: 5%;
+    border: none;
+    padding: .3rem;
+    color: white;
+}
+.css-button{
+    background-color: #0078ff;
+    font-weight: bold;
+    border-radius: 5%;
+    border: none;
+    padding: .3rem;
+    color: white;
+}
+hr{
+    height:2px;
+    border-width:0;
+    color:lightgray;
+    background-color:lightgray
+}
+
+/* media query */
+@media (max-width: 1200px) {
+    .social-media {
+      width: 1%;
+    }
+    .news-feed{
+        width: 60%;
+    }
+    .relatedNews-container{
+        width:39%;
+    }
+    .featued-img{
+        width: 35%;
+        height: 20%;
+    }
+  }
+  @media (max-width: 900px) {
+    .news-title{
+        font-size: 28px;
+    }
+    .social-media {
+        width: 5%;
+      }
+    .news-feed{
+        width: 95%;
+    }
+    .relatedNews-container{
+        width:100%;
+    }
+    .featued-img{
+        width: 65%;
+        height: 45%;
+    }
+    .featured-title{
+        font-size: 20px;
+        width: 70%;
+    }
+    
+  }
+  @media (max-width: 600px) {
+    html{
+      font-size: 12px;
+    }
+    .news-title{
+        font-size: 18px;
+    }
+    .social-media {
+        width: 5%;
+      }
+    .news-feed{
+        width: 95%;
+    }
+    .relatedNews-container{
+        width:100%;
+    }
+    .featued-img{
+        width: 67%;
+        height: 35%;
+    }
+    .featured-title{
+        font-size: 14px;
+        width: 100%;
+    }
+  }
+  body {
+    color: #3d455c;
+    font-weight: 300;
+  }
+  
+  h1,
+  h2,
+  h3,
+  h4 {
+    font-weight: 700;
+    color: #212631;
+  }
+  
+  .container {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 1rem;
+  }
+  
+  .comments-row {
+    margin-bottom: 3rem;
+  }
+  
+  .section-title {
+    margin-bottom: 2rem;
+  }
+  
+  .user-image {
+    padding-right: 1rem;
+  }
+  
+  .user-image img {
+    width: 4rem;
+  }
+  
+  .comment {
+    display: flex;
+    padding-top: 1rem;
+    margin-top: 1rem;
+    border-top: 1px solid #eceef2;
+  }
+  
+  .comment:nth-child(1) {
+    padding-top: 0;
+    border-top: none;
+  }
+  
+  .comment-heading {
+    margin-bottom: 0.5rem;
+  }
+  
+  .comment-heading h4 {
+    margin-bottom: 1rem;
+  }
+  
+  .comment-heading span {
+    font-size: 0.8rem;
+    color: #a7b3c6;
+  }
+  
+  .comment-heading a {
+    margin-left: 0.5rem;
+    text-decoration: none;
+    color: #a7b3c6;
+  }
+  
+  .comment-heading a:hover {
+    color: #212631;
+  }
+  
+  .body p {
+    color: #3d455c;
+    font-weight: 300;
+  }
+  
+  .reply-title {
+    margin-bottom: 2rem;
+  }
+  
+  .reply-title h2 {
+    margin-bottom: 1rem;
+  }
+  
+  .reply-form {
+    display: flex;
+    flex-wrap: wrap;
+  }
+  
+  .form-element {
+    margin-bottom: 1rem;
+    width: 33.3333333333%;
+    padding-right: 1rem;
+    padding-left: 1rem;
+  }
+  
+  .form-element input {
+    height: 2.5rem;
+    border: 2px solid #eceef2;
+    width: 100%;
+    padding: 0 1rem;
+    margin-top: 0.5rem;
+  }
+  
+  .message-text {
+    margin-bottom: 1rem;
+    width: 100%;
+    padding-right: 1rem;
+    padding-left: 1rem;
+  }
+  
+  .message-text textarea {
+    height: 5.75rem;
+    border: 2px solid #eceef2;
+    width: 100%;
+    padding: 1rem;
+  }
+  
+  .submit-button-div {
+    width: 100%;
+    padding-right: 1rem;
+    padding-left: 1rem;
+  }
+  
+  .submit-button-div button {
+    padding: 0.75rem 2.75rem;
+    border: none;
+    background-color: #212631;
+    font-weight: 600;
+    font-size: 13px;
+    color: #fff;
+    cursor: pointer;
+  }
+  
+  .submit-button-div button:hover {
+    opacity: 0.5;
+  }
+  
+  @media screen and (max-width: 900px) {
+    .form-element {
+      width: 100%;
+      padding: 0;
+    }
+    .submit-button-div {
+      padding: 0;
+    }
+    .message-text {
+      padding: 0;
+    }
+  }

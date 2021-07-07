@@ -75,6 +75,8 @@ html{
     padding: 50%;
 }
 
+/* *************=========================Media query ===============================*************/
+/* *************Media query to make header responsive *************/
 
 @media  (min-width: 320px) and (max-width: 768px)  {
     html{
@@ -117,18 +119,12 @@ html{
        color: white;
    }
 
+    
     .icons{
         width:5%;
         padding:5px;
       }
-    .nav-list:active
-     {
-        width:25%;
-     }
-     .nav-list:active li{
-     border-right: 1px solid #ECEEF2;
 
-     }
 
 
 }
@@ -141,3 +137,9 @@ html{
     font-size: 10px;
     }
 } 
+
+@media  (max-width: 360px){
+    .nav-list.active{
+        width:70%;
+    }  
+}

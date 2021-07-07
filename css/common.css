@@ -265,13 +265,14 @@ padding-bottom:1.4em ;
 
 }
 .icons-footer i{
-    width: 1.8em;
-    height: 1.8em;
+    width: 2rem;
+    height: 2rem;
     line-height: 30px;
     text-align: center;
     background-color: #a7b3c6;
     color: #FFF;
     border-radius: 2px;
+    padding:0;
 }
 
  /* responsive style */

@@ -31,6 +31,7 @@
 .item{
     display: flex;
     justify-content:space-between;
+    align-items: center;
 }
 .baner-item button{
    width:90px;
@@ -99,7 +100,10 @@ figure img {
 /* **************************News  section style *********** */
 .news-section{
     padding: 10px 12px;
+    display: flex;
+    /* flex-direction: ;. */
 }
+/* Left side */
 .news-main{
     width:70%;
     display: flex;
@@ -107,11 +111,11 @@ figure img {
     justify-content: space-evenly;
     margin: 5px;
  }
- .news-main .item{
+ .item{
     display: flex;
     justify-content:flex-start;
  }
- .news-main .item label{
+  .item label{
      margin-left: 7px;
  }
 .news-main .main-img-style {
@@ -123,8 +127,48 @@ figure img {
     margin:15px
 }
 .news-main  figure img {
-    height:60vh;
+    height:45vh;
     object-fit: cover;
+}
+/* Right side */
+.news-aside{
+    width:35%;
+}
+.news-aside .mostRead{
+  width: 100%; 
+
+}
+.news-aside .mostRead .related-head{
+    padding: 7px;
+}
+.news-aside .related-news{
+    display:flex;
+    flex-direction: row-reverse;
+    justify-content: space-evenly;
+    align-items: flex-start;
+    padding:10px;
+}
+.news-aside .related-news .related-title{
+    padding-left:15px;
+}
+.news-aside .mostRead img{
+  width:120px;
+  height: 120px;
+}
+.news-aside .Featured{
+    width:100%;
+    height: 40vh;
+    padding:20px;
+}
+.FeaturedPosts-aside{
+    padding-right: 2rem;
+}
+.FeaturedPosts-aside :first-child{
+    margin-top: 15px;
+}
+.news-aside .Featured p{
+    font-size: 15px;
+    font-weight: bold;
 }
 /* ***************Media query**************** */
 @media  (min-width: 320px) and (max-width: 768px)  {
@@ -164,6 +208,10 @@ figure img {
 
 }
 /* =================News Section ================ */
+.news-section{
+    flex-direction: column;
+
+}
 .news-main{
     flex-direction: column;
     margin: 5px;
@@ -183,4 +231,15 @@ figure img {
 .news-main  figure img {
     height:50vh;
 }
+.news-aside{
+    width:100%;
+}
+
+.FeaturedPosts-aside p {
+font-size: 1rem;
+}
+.news-aside .related-news .related-title{
+    font-size: 14px;
+}
+
 } /* Media close  */

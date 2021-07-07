@@ -11,6 +11,24 @@
     <title>RAM News</title>
 </head>
 <body>
+    <!--  Navigation section  -->
+    <nav class='header-nav'>
+        <h1 class="logo">RAM News </h1>
+        <ul class='nav-list' id="nav-list">
+           <li>  <a href="./html/details.html"> News </a></li>
+           <li>  <a href="./html/details.html"> Popular </a></li>
+           <li>  <a href="./html/details.html"> Web design</a></li>
+           <li>  <a href="./html/details.html"> JavaScipt </a></li>
+           <li>  <a href="./html/details.html"> Css </a></li>
+           <li>  <a href="./html/details.html"> Jquery </a></li>
+        </ul>
+    <div class='icons'>
+        <i class="fas fa-bars"id='showHideBtn'onclick="show()"> </i> 
+        <a href = "../index.html"><i class="fas fa-chevron-left"></i></a>
+    </div>
+    </nav> 
+
+    <!-- News Title -->
     <header>
         <div class = "landing-page" >
             <div class="landing-content">
@@ -22,7 +40,8 @@
             </div>        
         </div>
     </header>
-<body>
+
+    <!-- News feed -->
     <main class = "news-container">
         <section class = "social-media">
             <i class="fab fa-facebook-f"></i>
@@ -131,7 +150,7 @@
         </section>
     </main>
 
-
+    <!-- Comments Section -->
     <div class="container">
         <section class="comments-row">
             <div class="section-title">
@@ -206,6 +225,53 @@
             </form>
         </section>
     </div>
+
+    <!-- start footer -->
+    <div class="footer">
+        <section class="informations">
+            <h2 class="logo-footer">web<span>mag</span></h2>
+            <article class="privacy" >
+                <a href="html/details.html"> Privacy Policy</a>
+                <a href="html/details.html"> Advertisement</a>
+            </article>
+            <p class="copyright">
+            © Copyright ©2021 All rights reserved | This template is made with  by Colorlib    
+            </p>
+        </section>
+        <section class="links-footer">
+            <article class="about-us-links">
+                <h2 class="about-text">About Us</h2>
+            <ul>
+                <li><a href="html/details.html">About Us</a></li>
+                <li><a href="html/details.html"> Join Us</a></li>
+                <li><a href="html/details.html"> Contacts</a></li>
+            </ul>
+            </article>
+            <article class="Catagories-links">
+                <h2 class="Catagories-text">Catagories</h2>
+            <ul>
+                <li><a href="html/details.html">Web Design</a></li>
+                <li><a href="html/details.html"> JavaScipt</a></li>
+                <li><a href="html/details.html"> Css</a></li>
+                <li><a href="html/details.html"> Jquery</a></li>
+
+            </ul>
+            </article>
+
+        </section>
+        <section class="contact">
+            <label class="send-email"> Join Our Newsletter</label>
+            <input type="email" class="input-email" placeholder="Enter your email" />
+            <article class="icons-footer">
+                <i class="fab fa-facebook-f"></i>
+                <i class="fab fa-twitter"></i>
+                <i class="fab fa-google-plus-g"></i>
+                <i class="fab fa-pinterest"></i>
+            </article>
+
+        </section>
+    </div>
+    <!-- End footer -->
 
 </body>
 </html>

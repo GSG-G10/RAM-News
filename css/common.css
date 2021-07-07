@@ -100,7 +100,7 @@ html{
         right: -500px;
     } 
     .nav-list.active{
-        right:0;
+        right:-50px;
         display: flex;
         visibility: visible;
         font-size: 1.1rem;
@@ -118,6 +118,7 @@ html{
    .nav-list.active li  a{
        color: white;
    }
+
     
     .icons{
         width:5%;
@@ -125,10 +126,16 @@ html{
       }
 
 
-    }
+
+}
 
 @media  (max-width: 360px){
     .nav-list.active{
         width:70%;
     }  
-}
+    .baner-item p{
+    font-size: 10px;
+    }
+} 
+
+

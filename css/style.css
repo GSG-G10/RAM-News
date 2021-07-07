@@ -1,0 +1,242 @@
+
+    /* start  style for Most Read section */
+    .most-read-section{
+        display: flex;
+        justify-content: center;
+        padding: 15px;
+    }
+
+    .title-most-read{
+        font-size: 2.5em;
+        padding: 15px;
+    }
+.left-side{
+    width: 60%;
+
+}
+.posts {
+    display:flex;
+
+}
+.img-link{
+    width:45%;
+    padding: 15px;
+
+}
+.posts img{
+    width:100%;
+}
+.detailes-post{
+    width:55%;
+    padding: 15px;
+}
+
+section article:nth-child(2) .info-post a {
+    background-color: #ff8700;
+
+}
+section article:nth-child(3) .info-post a {
+            background-color: #ff8700;
+
+
+   
+}
+section article:nth-child(4) .info-post a {
+    background-color: #0078ff;
+
+
+   
+}
+section article:nth-child(5) .info-post a {
+            background-color: #8d00ff;
+
+
+   
+}
+.discribtion-post{
+    font-size: 1em;
+    display: -webkit-box;
+    -webkit-line-clamp: 3;
+    -webkit-box-orient: vertical;  
+    overflow: hidden;;
+    font-weight: 300;
+
+
+}
+.containrt-btn{
+    display: flex;
+    justify-content: center;
+}
+.more-btn{
+padding: 9px 45px;
+border: none;
+background-color: #212631;
+font-weight: 600;
+text-transform: uppercase;
+font-size: 13px;
+color: #fff;
+cursor: pointer;
+}
+.more-btn:hover{
+    
+    opacity: 0.8;
+    }
+
+
+    .more-sub-title{
+        font-size: 1.2em;
+        font-weight: 800;
+        color: #212631;
+    
+    }
+     .more-sub-title:hover {
+         text-decoration:underline;
+         opacity: 1;
+     } 
+     a:hover{
+         opacity: 0.8;
+     }
+
+
+.rigth-side{
+    width: 30%;
+    padding: 1em;
+    display: flex;
+    flex-direction: column;
+
+
+}
+.ad-img{
+   width: 100%;
+
+
+}
+.title-catgories{
+    font-size: 2.5em;
+    font-weight: 800;
+    color: #212631;
+    padding: 1.2em 1.2em 1.2em 0;
+
+
+}
+.catagories{
+    display: flex;
+    flex-direction: column;
+
+}
+.catagories a {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    font-weight: 600;
+    color: #212631;
+    padding: 0.2em;
+ border-bottom: 1px solid #eceef2;
+
+}
+.catagories a .totle {
+    font-size: 1em;
+    padding: 0.1em;
+border: 10px saddlebrown ;    
+    }
+ .catagories a:nth-child(1) .totle {
+background-color: #4bb92f;
+border-radius: 0.2em;
+color: #fff;
+
+}
+.catagories a:nth-child(2) .totle {
+    background-color: #ff8700;
+    border-radius: 0.2em;
+    color: #fff;
+
+    
+    }
+    .catagories a:nth-child(3) .totle {
+        background-color: #0078ff;
+        border-radius: 0.2em;
+        color: #fff;
+
+        
+        }
+        .catagories a:nth-child(4) .totle {
+            background-color: #8d00ff;
+            border-radius: 0.2em;
+            color: #fff;
+
+            
+            }
+
+
+.most-read-tags{
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    padding: 1.2em 1.2em 1.2em 0;
+
+}   
+.most-read-tags a{
+    padding:0.5em;
+    border-radius: 0.2em;
+    font-size: 1em;
+    color: #fff;
+    background-color: #212631;
+    font-weight: 600;
+    margin:0.1em;
+    
+}   
+.most-read-tags a span:nth-child(1){
+    padding:0.5em;
+    
+} 
+
+
+img {
+        width: 100%;
+        object-fit:contain;
+    }
+a {
+        text-decoration: none;
+        }
+.info-post {
+    display: flex;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    }
+.tag{
+        text-transform: uppercase;
+        padding: 5px;
+        color: #fff;
+        font-size: 1em;
+        font-weight: 700;
+        text-align: center;
+        border-radius: 3px;
+    }
+.date{
+        padding: 5px;
+        font-size: 0.9em;
+        font-weight: 600;
+        color: #3d455c;
+    
+    }
+    
+    
+     /* responsive style */
+     @media screen  and (max-width:1024px) {
+        .most-read-section{
+            display: flex;
+            justify-content: center;
+            flex-direction: column;
+            padding: 15px;
+        }
+        .left-side{
+            width: 100%;
+        
+        }
+        .rigth-side{
+            width: 100%;
+    
+        }
+    }
+
+    /* End  style forMost Read section*/

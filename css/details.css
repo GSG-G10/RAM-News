@@ -8,7 +8,7 @@
 
 /* news title */
 .landing-page{
-    background-image: url("../images/7.jpg");
+    background-image: url("../images/6.jpg");
     height: 25%; /*image height*/
     background-position: center;/*if I didn't put it, it will show the top of the img the boy will Disappears*/
     background-attachment: fixed;/*when we do the scroll it be fixed and show the rest of the img*/
@@ -40,3 +40,38 @@
     font-size: 34px;
 }
 
+/* media query */
+@media (max-width: 1200px) {
+    .social-media {
+      width: 1%;
+    }
+    .news-feed{
+        width: 60%;
+    }
+    .relatedNews-container{
+        width:39%;
+    }
+    .featued-img{
+        width: 35%;
+        height: 20%;
+    }
+  }
+  @media (max-width: 900px) {
+    html{
+        font-size: 14px;
+      }
+      .news-title{
+        font-size: 28px;
+    }
+    
+  }
+
+  /*News Title media query*/
+  @media (max-width: 600px) {
+    html{
+      font-size: 12px;
+    }
+    .news-title{
+        font-size: 18px;
+    }
+  }

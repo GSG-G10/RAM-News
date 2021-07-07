@@ -74,56 +74,7 @@ html{
 .icons i{
     padding: 50%;
 }
-/* New post section style  */
-.new-post-section{
-    padding: 10px 12px;
-}
-.new-post-section .title{
-    padding:  2rem;
-    font-weight: bold;
-    font-size: 1.8rem;
-}
 
-.new-post-main{
-   display: flex;
-   flex-wrap: wrap;
-   justify-content: space-evenly;
- 
-}
-.recent-item {
-    width:30%;
-    padding-bottom: 2rem;
-}
-figure img {
-    width:100%;
-}
-.recent-item button{
-    width:90px;
-    border: none;
-    padding:5px;
-    border-radius: 4px;
-    color: white;
-    font-weight: bold;
-    font-size: 12px;
-    text-transform: uppercase;
-}
-.orange{
-    background-color: #F9932C;
-}
-.blue{
-    background-color: #1F84FA;
-}
-.purble{
-    background-color: #A06FFB;
-}
-.green{
-    background-color: #5DC044;
-}
-.recent-item p{
-   font-weight: bold;
-   font-size: 1.2rem;
-   padding: 4px;
-}
 
 @media  (min-width: 320px) and (max-width: 768px)  {
     html{
@@ -179,36 +130,6 @@ figure img {
 
      }
 
-/*========================  Baner section==========================  */
-.baner-section{
-    flex-direction: column;
-    padding: 1rem 2rem;
-}
-.baner-item{
-  width:100%;
-  font-size: 0.6em;
-}
-.baner-item label{
-    margin-top: 5px;
-}
-.baner-item p{
-    font-size: 0.7rem;
-}
-/*========================  New post section==========================  */
-.recent-item {
-    width:50%;
-    padding: 1rem;
-}  
-.recent-item  p{
-    font-size: 12px;
-    }
- .recent-item label {
-    font-size: 10px;
- }
- .new-post-section .title{
-    padding:  1rem;
-
-}
 
 }
 

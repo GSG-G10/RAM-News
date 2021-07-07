@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- Links  -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Nunito:wght@200&display=swap" rel="stylesheet">
+    <link href="css/style.css" rel="stylesheet">
+    <link href="css/common.css" rel="stylesheet">
+    <script src="https://kit.fontawesome.com/81c816aea5.js" crossorigin="anonymous"></script>
+    <title>RAM News</title>
+</head>
+<body>
+    <!--  Navigation section  -->
+    <nav class='header-nav'>
+        <h1 class="logo">RAM News </h1>
+        <ul class='nav-list' id="nav-list">
+           <li>  <a href="./html/details.html"> News </a></li>
+           <li>  <a href="./html/details.html"> Popular </a></li>
+           <li>  <a href="./html/details.html"> Web design</a></li>
+           <li>  <a href="./html/details.html"> JavaScipt </a></li>
+           <li>  <a href="./html/details.html"> Css </a></li>
+           <li>  <a href="./html/details.html"> Jquery </a></li>
+        </ul>
+    <div class='icons'>
+        <i class="fas fa-bars"id='showHideBtn'onclick="show()"> </i> 
+        <i class="fas fa-search"></i>
+    </div>
+    </nav>
+
+<!-- **********************Baner news section ****************************************** -->
+    <section class='baner-section'>
+        <div class="baner-item first-baner">
+            <div class='item'>
+            <button>JavaScipt</button>
+            <label>March 27,2021</label>
+        </div>
+            <p>Chrome Extension Protects Against JavaScript-Based CPU Side-Channel Attacks</p>
+        </div>
+        <div class="baner-item second-baner">
+            <div class='item'>
+            <button>Jquery</button>
+            <label>March 27,2021</label>
+            </div>
+            <p>Ask HN: Does Anybody Still Use JQuery?</p>
+        </div>
+    </section>
+<!-- **********************New post section ****************************************** -->
+<section class='new-post-section'>
+    <h2 class='title'> Recent Posts</h2>
+    <main class='new-post-main'>
+    <div class="recent-item ">
+       <figure><img src="./images/4.jpg"></figure> 
+        <div class='item'>
+        <button class='green'>Web Design</button>
+        <label>March 27,2021</label>
+    </div>
+        <p>Pagedraw UI Builder Turns Your Website Design Mockup Into Code Automatically</p>
+    </div>
+    <div class="recent-item">
+        <figure> <img src="./images/3.jpg"></figure> 
+        <div class='item'>
+        <button  class='orange'>JavaScipt</button>
+        <label>March 27,2021</label>
+        </div>
+        <p>Chrome Extension Protects Against JavaScript-Based CPU Side-Channel Attacks</p>
+    </div>
+    <div class="recent-item">
+        <figure> <img src="./images/4.jpg"></figure> 
+        <div class='item'>
+        <button class="purble">Jquery</button>
+        <label>March 27,2021</label>
+        </div>
+        <p>Ask HN: Does Anybody Still Use JQuery?</p>
+    </div>
+    <div class="recent-item">
+        <figure> <img src="./images/3.jpg"></figure> 
+        <div class='item'>
+        <button class='orange'>JavaScipt</button>
+        <label>March 27,2021</label>
+        </div>
+        <p>Why Node.js Is The Coolest Kid On The Backend Development Block!</p>
+    </div>
+    <div class="recent-item">
+        <figure> <img src="./images/4.jpg"></figure> 
+        <div class='item'>
+        <button class='blue'>CSS</button>
+        <label>March 27,2021</label>
+        </div>
+        <p>CSS Float: A Tutorial</p>
+    </div>
+    <div class="recent-item">
+        <figure> <img src="./images/3.jpg"></figure> 
+        <div class='item'>
+        <button class='green'>Web Design</button>
+        <label>March 27,2021</label>
+        </div>
+        <p>Tell-A-Tool: Guide To Web Design And Development Tools</p>
+    </div>
+</main>
+      
+</section>
+
+<script>
+    
+    function show(){
+        let nav=document.getElementById('nav-list').classList.toggle('active')
+    }
+</script>
+</body>
+</html>

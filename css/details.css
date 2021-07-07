@@ -9,9 +9,9 @@
 /* news title */
 .landing-page{
     background-image: url("../images/6.jpg");
-    height: 25%; /*image height*/
-    background-position: center;/*if I didn't put it, it will show the top of the img the boy will Disappears*/
-    background-attachment: fixed;/*when we do the scroll it be fixed and show the rest of the img*/
+    height: 25%; 
+    background-position: center;
+    background-attachment: fixed;
     background-repeat: no-repeat;
     background-size: cover;
 }
@@ -40,20 +40,10 @@
     font-size: 34px;
 }
 
-/* media query */
+  /*News Title media query*/
 @media (max-width: 1200px) {
-    .social-media {
-      width: 1%;
-    }
-    .news-feed{
-        width: 60%;
-    }
-    .relatedNews-container{
-        width:39%;
-    }
-    .featued-img{
-        width: 35%;
-        height: 20%;
+    .news-title{
+        font-size: 30px;
     }
   }
   @media (max-width: 900px) {
@@ -65,8 +55,6 @@
     }
     
   }
-
-  /*News Title media query*/
   @media (max-width: 600px) {
     html{
       font-size: 12px;

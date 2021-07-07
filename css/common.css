@@ -280,7 +280,6 @@ padding-bottom:1.4em ;
          font-size: 13px;
      }
     .footer{
-        border: 1px solid red;
         display:flex;
         flex-direction: column;
         justify-content: space-around;
